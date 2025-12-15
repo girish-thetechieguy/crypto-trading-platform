@@ -12,7 +12,7 @@ const Transactions = () => {
 
   const fetchTransactions = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/transactions/history');
+      const res = await axios.get('http://localhost:5001/api/transactions/history');
       setTransactions(res.data);
     } catch (err) {
       console.error(err);

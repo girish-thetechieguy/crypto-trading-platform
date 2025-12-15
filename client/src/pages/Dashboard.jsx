@@ -10,7 +10,7 @@ const Dashboard = () => {
 
   const fetchCoins = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/crypto/markets');
+      const res = await axios.get('http://localhost:5001/api/crypto/markets');
       setCoins(res.data);
     } catch (err) {
       console.error(err);

@@ -18,7 +18,7 @@ const TradeModal = ({ coin, onClose, onTradeComplete }) => {
 
     try {
       const endpoint = tradeType === 'buy' ? '/api/transactions/buy' : '/api/transactions/sell';
-      await axios.post(`http://localhost:5000${endpoint}`, {
+      await axios.post(`http://localhost:5001${endpoint}`, {
         coinId: coin.id,
         coinSymbol: coin.symbol,
         coinName: coin.name,

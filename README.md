@@ -177,4 +177,21 @@ Export transaction history as CSV
 
 Responsive mobile-first design
 
-Generate complete, well-commented code for all files with proper error handling, loading states, and professional UI. Include setup instructions in README.md.
+Screenshoots:
+Login / Registation page: 
+![alt text](/WorkFlow-sc/login.png)
+
+Home page:
+![alt text](/WorkFlow-sc/home.png)
+
+Buy Coins:
+![alt text](</WorkFlow-sc/Buycoin1.png>) ![alt text](<WorkFlow-sc/Buycoin2.png>)
+
+Transactions:
+![alt text](</WorkFlow-sc/transactions.png>) 
+
+Portfolios:
+![alt text](</WorkFlow-sc/portfolio.png>) 
+
+Logout:
+![alt text](/WorkFlow-sc/login.png)

@@ -15,7 +15,7 @@ const Portfolio = () => {
 
   const fetchPortfolio = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/user/portfolio');
+      const res = await axios.get('http://localhost:5001/api/user/portfolio');
       setPortfolio(res.data.portfolio);
 
       if (res.data.portfolio.length > 0) {
